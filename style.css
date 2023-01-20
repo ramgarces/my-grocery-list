@@ -27,7 +27,7 @@ body {
     font-size: 4em;
     font-weight: lighter;
     letter-spacing: 0.05em;
-    color: var(--accent)
+    color: var(--purplish)
 }
 
 .newGroceryForm {
@@ -44,7 +44,7 @@ body {
 }
 
 #addBtn {
-    background-color: var(--accent);
+    background-color: var(--purplish);
     color: var(--background);
     padding: 0.5em;
     font-size: 1.5em;
@@ -54,7 +54,8 @@ body {
 }
 
 #addBtn:hover {
-    background-color: var(--purplish)
+    background-color: var(--greenish);
+    color: var(--comment);
 }
 
 #groceryList {
@@ -68,7 +69,7 @@ body {
 }
 
 .groceryItem {
-    background-color: white;
+    background-color: var(--comment);
     color: var(--background);
     margin: 0.5em;
     width: 24em;
@@ -76,9 +77,11 @@ body {
     padding: 0.5em;
     border-radius: 0.25em;
     cursor: pointer;
+    border: 1px solid var(--purplish)
 }
 
 .groceryItem:hover {
     background-color: var(--purplish);
+    border: 2px solid var(--background);
     font-weight: bold;
 }
